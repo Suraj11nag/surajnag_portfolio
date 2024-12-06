@@ -93,7 +93,7 @@
 
 
 .gallery-item-cautionary {
-  height: 12rem;
+  height: 16rem;
   margin: 3.5% auto;
   margin-bottom: -3%;
   display: flex;     
@@ -109,6 +109,7 @@
   max-width: 100%;         /* Ensure image fits within container width */
   max-height: 100%;   
   pointer-events: none;     /* Ensure image fits within container height */
+  border-radius: clamp(4px, 0.8vw, 12px);
   object-fit: contain;    /* Show full image, maintain aspect ratio */ /* changed this */
 }
 
